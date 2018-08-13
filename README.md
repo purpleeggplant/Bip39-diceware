@@ -9,12 +9,12 @@ http://github.com/purpleeggplant/Bip39-diceware/raw/master/coin_plus_d6_bip39.pd
 
 Generate a bip39 passphrase using a coin and four standard 6 sided dice.
 Generate each of the words by flipping the coin (t/h) and rolling the dice (1-6).
-Consistently and fairly, to avoid bias, arrange the dice in order left to right.
+
+Consistently and fairly, to avoid bias, the dice should be rolled using two closed hands and forced to bounce at least twice before reading, in order, from left to right.  The coin should be randomly selected and flipped in such a way that predicting the result is not possible.
+
 Look up the result in the attached table. If you flip tails and get a dice value larger
 than 4362 then you will have to flip+roll over again. After you are finished all 23
 words, the last will need to be selected from a subset in order to meet the checksum requirements.
-
-The coin should be randomly selected and flipped in such a way that predicting the result is not possible.
 
 You have now generated a bip39 compliant wallet using manual entropy!
 
