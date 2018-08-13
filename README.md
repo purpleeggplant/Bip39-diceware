@@ -14,6 +14,8 @@ Look up the result in the attached table. If you flip tails and get a dice value
 than 4362 then you will have to flip+roll over again. After you are finished all 23
 words, the last will need to be selected from a subset in order to meet the checksum requirements.
 
+The coin should be randomly selected and flipped in such a way that predicting the result is not possible.
+
 You have now generated a bip39 compliant wallet using manual entropy!
 
 
